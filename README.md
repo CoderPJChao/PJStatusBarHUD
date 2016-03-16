@@ -19,9 +19,9 @@
 ```
 ## 显示普通信息
 ```objc
-[PJStatusBarHUD showMessageWithStatus:@"文本内容!!!"];
-[PJStatusBarHUD showMessageWithStatus:@"warning!!!" image:[UIImage imageNamed:图片]];
-[PJStatusBarHUD showMessageWithStatus:@"warning!!!" imageName:图片名称];
+[PJStatusBarHUD showMessageWithStatus:@"文本内容!"];
+[PJStatusBarHUD showMessageWithStatus:@"文本内容!" image:[UIImage imageNamed:图片]];
+[PJStatusBarHUD showMessageWithStatus:@"文本内容!" imageName:图片名称];
 ```
 
 ## 隐藏
