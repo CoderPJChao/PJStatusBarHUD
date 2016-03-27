@@ -166,9 +166,9 @@ static NSTimer *timer_;
     CGSize size = CGSizeMake(16, 16);
     UIGraphicsBeginImageContext(size);
     [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
-    UIImage *TransformedImg=UIGraphicsGetImageFromCurrentImageContext();
+    UIImage *transformedImg=UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    return TransformedImg;
+    return transformedImg;
 }
 
 @end
